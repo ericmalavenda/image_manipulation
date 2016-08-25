@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Eric Malavenda
-# [P3] Project 3: HaarCascade Classifiers & Human/Cat Face/Body Feature Detection + Face/Facial Feature Swapping
+# [P3] Project 3: HaarCascade Classifiers & Object Recognition
+# A "face-swap" application
 # [CS-4475-A] Professor: Dr. Maria Hybinette
 
 import cv2
