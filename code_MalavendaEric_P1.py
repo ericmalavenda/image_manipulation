@@ -4,15 +4,7 @@
 
 # "Filtering is the fundamental operation in image and video processing. 
 # Edge-preserving smoothing filters are used in many different applications" 
-'''
-joint:joint (also called as guided) image or array of images with any numbers 
-of channels.
-src:	filtering image with any numbers of channels.
-dst:	output image.
-sigma_s:	spatial standard deviation.
-sigma_r:	color space standard deviation, it is similar to the sigma in the 
-color space into bilateralFilter.
-'''
+
 import cv2
 import numpy as np
 
