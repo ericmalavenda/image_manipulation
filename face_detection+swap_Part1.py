@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Eric Malavenda
 # [P3] Project 3: HaarCascade Classifiers & Face Detection with Python 2.7 + OpenCV 3.1
-# A "face-swap" application: Part 1 of 2
+# A "face-swapping" application: Part 1 of 2
 # [CS-4475-A] Professor: Dr. Maria Hybinette
 
 import cv2
