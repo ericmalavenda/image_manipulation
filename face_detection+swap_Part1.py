@@ -91,12 +91,3 @@ def swapFaces(image, new_face_array, face2replace_array, face_2_replace_copy):
                 i += 1
                 j += 1
             return (merged_image)
-    
-image = cv2.imread('fam2.png')
-roi_color_array, roi_color_array2, roi_color_array3 = box_faces(image)
-#fname = write2file(roi_color_array)
-new_face_array, newFaces_copy = newFaces(image, roi_color_array2)
-face2replace_array, face_2_replace_copy = face_2_replace(image, new_face_array, roi_color_array3)
-merged_image = swapFaces(image, new_face_array, face2replace_array, face_2_replace_copy)
-#cv2.imshow('merged_image', merged_image)
-cv2.imwrite('merged_image.png', merged_image)
