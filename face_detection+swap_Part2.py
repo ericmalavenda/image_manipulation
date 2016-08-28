@@ -6,7 +6,7 @@
 
 import cv2
 import numpy as np
-from MalavendaEric_FaceSwap import box_faces, newFaces, face_2_replace, swapFaces
+from face_detection+swap_Part1 import box_faces, newFaces, face_2_replace, swapFaces
 
 def box_faces2(image, img):
     face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
