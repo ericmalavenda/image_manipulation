@@ -6,6 +6,7 @@
 
 import cv2
 import numpy as np
+from MalavendaEric_FaceSwap import box_faces, newFaces, face_2_replace, swapFaces
 
 def box_faces2(image, img):
     face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
@@ -67,40 +68,40 @@ def newFacesImage(array):
         index += 1
     return (fname[len(fname)-1])
      
-image = cv2.imread('fam2.png')
-img = cv2.imread('merged_image.png')
-roi_color_array, roi_color_array1, roi_color_array2, roi_color_array3 = box_faces2(image, img)
-no_face_image = addROIs(image, roi_color_array3)
-cv2.imwrite('no_face_image.png', no_face_image)
-new_face_image = newFacesImage(roi_color_array)
-rows,cols,channels = new_face_image.shape
-fg_img = no_face_image[0:rows, 0:cols]
-subject_region_roi_0 = cv2.subtract(new_face_image,fg_img)
-subject_region_roi_1 = cv2.subtract(subject_region_roi_0, fg_img)
-subject_region_roi_2 = cv2.subtract(subject_region_roi_1, fg_img)
-subject_region_roi_3 = cv2.subtract(subject_region_roi_2, fg_img)
-subject_region_roi_4 = cv2.subtract(subject_region_roi_3, fg_img)
-subject_region_roi_5 = cv2.subtract(subject_region_roi_4, fg_img)
-subject_region_roi_6 = cv2.subtract(subject_region_roi_5, fg_img)
-subject_region_roi_7 = cv2.subtract(subject_region_roi_6, fg_img)
-subject_region_roi_8 = cv2.subtract(subject_region_roi_7, fg_img)
-subject_region_roi_9 = cv2.subtract(subject_region_roi_8, fg_img)
-subject_region_roi_10 = cv2.subtract(subject_region_roi_9, fg_img)
-subject_region_roi_11 = cv2.subtract(subject_region_roi_10, fg_img)
-subject_region_roi = cv2.subtract(subject_region_roi_11, fg_img)
+def main():
+    image = cv2.imread('fam.png')
+    roi_color_array, roi_color_array2, roi_color_array3 = box_faces(image)
+    #fname = write2file(roi_color_array)
+    new_face_array, newFaces_copy = newFaces(image, roi_color_array2)
+    face2replace_array, face_2_replace_copy = face_2_replace(image, new_face_array, roi_color_array3)
+    merged_image = swapFaces(image, new_face_array, face2replace_array, face_2_replace_copy)
+    #cv2.imshow('merged_image', merged_image)
+    cv2.imwrite('merged_image.png', merged_image)
+    image = cv2.imread('fam.png')
+    img = cv2.imread('merged_image.png')
+    roi_color_array, roi_color_array1, roi_color_array2, roi_color_array3 = box_faces2(image, img)
+    no_face_image = addROIs(image, roi_color_array3)
+    cv2.imwrite('no_face_image.png', no_face_image)
+    new_face_image = newFacesImage(roi_color_array)
+    rows,cols,channels = new_face_image.shape
+    fg_img = no_face_image[0:rows, 0:cols]
+    subject_region_roi_0 = cv2.subtract(new_face_image,fg_img)
+    subject_region_roi_1 = cv2.subtract(subject_region_roi_0, fg_img)
+    subject_region_roi_2 = cv2.subtract(subject_region_roi_1, fg_img)
+    subject_region_roi_3 = cv2.subtract(subject_region_roi_2, fg_img)
+    subject_region_roi_4 = cv2.subtract(subject_region_roi_3, fg_img)
+    subject_region_roi_5 = cv2.subtract(subject_region_roi_4, fg_img)
+    subject_region_roi_6 = cv2.subtract(subject_region_roi_5, fg_img)
+    subject_region_roi_7 = cv2.subtract(subject_region_roi_6, fg_img)
+    subject_region_roi_8 = cv2.subtract(subject_region_roi_7, fg_img)
+    subject_region_roi_9 = cv2.subtract(subject_region_roi_8, fg_img)
+    subject_region_roi_10 = cv2.subtract(subject_region_roi_9, fg_img)
+    subject_region_roi_11 = cv2.subtract(subject_region_roi_10, fg_img)
+    subject_region_roi = cv2.subtract(subject_region_roi_11, fg_img)
+    cv2.imwrite('new_face_image.png', subject_region_roi)
+    merged_image = cv2.addWeighted(no_face_image, 0.5, subject_region_roi, 0.5, 0)
+    merged_image_final = cv2.add(merged_image, merged_image.copy())
+    cv2.imwrite('merged_image_final.png', merged_image_final)
 
-
-#cv2.imshow('bg', subject_region_roi)  
-#cv2.imwrite('bg.png', subject_region_roi) 
-#cv2.waitKey(0)
-# Take only region of component from component image.
-#subject_region_visible_fg = cv2.bitwise_and(fg_img,fg_img,mask = fgmask)
-#cv2.imshow('fg', fg_img)
-#cv2.imwrite('fg.png', fg_img)
-#cv2.waitKey(0)        
-# Place component in roi and update main image
-#canvas_img = cv2.add(subject_region_roi, fg_img)
-cv2.imwrite('new_face_image.png', subject_region_roi)
-merged_image = cv2.addWeighted(no_face_image, 0.5, subject_region_roi, 0.5, 0)
-merged_image_final = cv2.add(merged_image, merged_image.copy())
-cv2.imwrite('merged_image_final.png', merged_image_final)
+if __name__ == "__main__":
+    main()
