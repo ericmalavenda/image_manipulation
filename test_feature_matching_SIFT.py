@@ -12,7 +12,7 @@ import os
 import numpy as np
 import cv2
 
-import assignment5
+import feature_matching_SIFT
 
 def test_findMatchesBetweenImages():
   """This script will perform a unit test on the matching function.
