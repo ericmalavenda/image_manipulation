@@ -5,7 +5,8 @@
 # Georgia Institute of Technology
 
 Feature Detection and Matching with SIFT algorithm in OpenCV 3.1 Implemented with Python 2.7
-# pdf with images available here: https://eric-malavenda.myportfolio.com/feature-matching-with-sift
+# Link to Portfolio and to view project corresponding images: 
+# https://eric-malavenda.myportfolio.com/feature-matching-with-sift
 
 def findMatchesBetweenImages(image_1, image_2): 
 # “Return the top 10 list of matches between two input images.” 
