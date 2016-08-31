@@ -4,7 +4,7 @@
 # [CS-4475-A] Professor: Dr. Maria Hybinette
 # Project 1 [P1]: Computational Photography & Non-Photorealistic Rendering
 
-Link to Portfolio and to view project corresponding images:
+Link to Portfolio and to view project-corresponding images:
 https://eric-malavenda.myportfolio.com/computer-vision-computational-photo-wpythonopencv
 
 # readme.txt
