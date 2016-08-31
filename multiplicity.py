@@ -47,7 +47,7 @@ def getimagesarray(array,factor):
 2d. bgmask: black out area in background image to exclude the subject. (inverse mask).
 """
      
-## 2c.    
+# 2c.    
 def image_operations(array,arraynames):
     index=1
     canvas_array = []
