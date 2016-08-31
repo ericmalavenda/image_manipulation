@@ -4,7 +4,7 @@
 # Assignment and assignment code framework developed by: 
 # Dr. Irfan Essa & Dr. Jay Summet@Georgia Institute of Technology
 
-# Assignment test code below developed by:
+# Assignment test code developed by:
 # Dr. Irfan Essa & Dr. Jay Summet@Georgia Institute of Technology
 
 import sys
