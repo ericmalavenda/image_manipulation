@@ -1,8 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Code would not run properly without the utf-8 specification above.
-# ASSIGNMENT 5 - Feature Matching
+
 # Eric Malavenda
+# ASSIGNMENT 5 - Feature Matching
+
+# Acknowledgements:
+# Summer 2016 Course Professor: 
+# Dr. Maria Hybinette@Georgia Institute of Technology & @University of Georgia
+# Assignment and assignment code framework developed by: 
+# Dr. Irfan Essa & Dr. Jay Summet@Georgia Institute of Technology
+
+# Original assignment description given at the following URL:
+# http://cobweb.cs.uga.edu/~maria/classes/2016-CompPhoto/H5-Feature.html
 
 import numpy as np
 import scipy as sp
