@@ -6,7 +6,7 @@
 # Original assignment URL:
 # http://cobweb.cs.uga.edu/~maria/classes/2016-CompPhoto/H2-Blend.html
 
-Link to Portfolio:
+Link to Portfolio and to view project-corresponding images:
 https://eric-malavenda.myportfolio.com/multiplicity
 
 The images I used as foreground and background images that would later comprise my algorithmically modified composite image, 
