@@ -1,5 +1,12 @@
 # HW 4
 # Eric Malavenda
+# Acknowledgements:
+# CS-4475-A, CS-6475-A / Summer 2016 
+# [Professor] Dr. Marie Hybinette@Georgia Institute of Technology & @University of Georgia
+# Assignment and assignment code framework creators:
+# Dr. Jay Summet & Dr. Irfan Essa@Georgia Institute of Technology
+# Original assignment URL:
+# http://cobweb.cs.uga.edu/~maria/classes/2016-CompPhoto/H4-Blending.html
 
 import numpy as np
 import scipy as sp
