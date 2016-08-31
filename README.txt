@@ -6,7 +6,7 @@
 # Original assignment URL:
 # http://cobweb.cs.uga.edu/~maria/classes/2016-CompPhoto/H4-Blending.html
 
-Link to Portfolio and to view project corresponding images:
+Link to Portfolio and to view project-corresponding images:
 https://eric-malavenda.myportfolio.com/image-blending
 
 To create a unique mask, the following steps were followed:
