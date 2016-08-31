@@ -1,7 +1,7 @@
 # image_manipulation
 # Computer Vision & Image Manipulation with Python 2.7 + OpenCV 3.1
-# Malavenda, Eric
-# [CS-4475-A] Instructor: Dr. Maria Hybinette
+# Eric Malavenda
+# [CS-4475-A] Professor: Dr. Maria Hybinette
 # Project 1 [P1]: Computational Photography & Non-Photorealistic Rendering
 # readme.txt
 
