@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33f93768-2b22-4394-adb9-8c7080f47d98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Admin\Documents\GitHub\image_manipulation\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XL4BNZYwEOLSyolNfpnPevhHzn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33f93768-2b22-4394-adb9-8c7080f47d98" name="Default Changelist" comment="" />
+      <created>1580811904932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580811904932</updated>
+      <workItem from="1580811908702" duration="134000" />
+      <workItem from="1580812050319" duration="286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="929" y="449" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580812029230">
+      <screen x="0" y="0" width="2498" height="1440" />
+    </state>
+    <state x="929" y="449" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2498.1440@0.0.2498.1440" timestamp="1580812029230" />
+    <state x="996" y="577" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580812299425">
+      <screen x="0" y="0" width="2498" height="1440" />
+    </state>
+    <state x="996" y="577" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2498.1440@0.0.2498.1440" timestamp="1580812299425" />
+    <state x="945" y="545" key="com.intellij.ide.util.TipDialog" timestamp="1580812051024">
+      <screen x="0" y="0" width="2498" height="1440" />
+    </state>
+    <state x="945" y="545" key="com.intellij.ide.util.TipDialog/0.0.2498.1440@0.0.2498.1440" timestamp="1580812051024" />
+  </component>
+</project>
